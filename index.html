@@ -130,6 +130,7 @@
 
   @media (min-width: 769px) {
     .hamburger { display: none; }
+  }
 
   .navbar-show {
     font-family: 'Rajdhani', sans-serif;
@@ -338,19 +339,6 @@
     display: block;
   }
 
-  .brand-do {
-    font-family: 'Orbitron', monospace;
-    font-size: clamp(54px, 10vw, 92px);
-    font-weight: 900;
-    line-height: 0.95;
-    background: linear-gradient(160deg, #fff7c2 0%, var(--gold-light) 30%, var(--gold) 60%, var(--gold-dark) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    filter: drop-shadow(0 0 28px rgba(245,200,66,0.55));
-    animation: floatIn 1s ease 0.15s both;
-  }
-
   .brand-crypto {
     font-family: 'Exo 2', sans-serif;
     font-size: clamp(13px, 2vw, 16px);
@@ -497,54 +485,6 @@
     white-space: nowrap;
   }
 
-  /* ─── OLD BUTTON STYLES (kept for other uses) ─── */
-  .btn-primary {
-    font-family: 'Orbitron', monospace;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    padding: 16px 40px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-    color: var(--blue-deep);
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    box-shadow: 0 0 30px rgba(245,200,66,0.4), inset 0 1px 0 rgba(255,255,255,0.3);
-    transition: all 0.3s;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .btn-secondary {
-    font-family: 'Orbitron', monospace;
-    font-size: 15px;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    padding: 16px 40px;
-    border-radius: 8px;
-    border: 1px solid var(--glass-border);
-    cursor: pointer;
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    color: var(--white);
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    transition: all 0.3s;
-  }
-
-  .btn-secondary:hover {
-    background: rgba(255,255,255,0.1);
-    border-color: var(--gold);
-    color: var(--gold);
-    transform: translateY(-2px);
-  }
-
   /* ─── PRIZE LADDER SECTION ─── */
   .section {
     position: relative;
@@ -578,15 +518,15 @@
   }
 
   .prize-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  max-width: 700px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 700px;
+    margin: 0 auto;
   }
 
-   @media (max-width: 600px) {
-  .prize-grid { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 600px) {
+    .prize-grid { grid-template-columns: repeat(2, 1fr); }
   }
 
   .prize-item {
@@ -764,53 +704,6 @@
     padding-top: 6px;
   }
 
-  /* ─── APP SCREENS ─── */
-  .screens-wrapper {
-    display: flex;
-    gap: 28px;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-
-  .screen-frame {
-    position: relative;
-    border-radius: 28px;
-    overflow: hidden;
-    border: 2px solid var(--glass-border);
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-    transition: all 0.4s;
-    max-width: 180px;
-  }
-
-  .screen-frame:hover {
-    transform: translateY(-10px) scale(1.03);
-    border-color: var(--gold);
-    box-shadow: 0 30px 70px rgba(245,200,66,0.2);
-  }
-
-  .screen-frame img {
-    width: 100%;
-    display: block;
-  }
-
-  .screen-label {
-    position: absolute;
-    bottom: 0; left: 0; right: 0;
-    padding: 10px;
-    background: linear-gradient(to top, rgba(5,13,46,0.95), transparent);
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    color: var(--gold);
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-
-
   /* ─── FOOTER ─── */
   footer {
     position: relative;
@@ -908,8 +801,6 @@
   }
 
   @media (max-width: 600px) {
-    .screens-wrapper { gap: 16px; }
-    .screen-frame { max-width: 140px; }
     .rules-container { padding: 32px 20px; }
     .hero-screens { width: 210px; height: 380px; }
     .screen-front { width: 120px; }
@@ -935,9 +826,6 @@
 <!-- LANG BAR -->
 <header class="lang-bar">
   <div class="navbar-brand">
-    <!-- ✏️ LOGO TOPO: Substitua o comentário abaixo pela tag img com o caminho da sua imagem -->
-    <!-- Exemplo: <img src="seu-logo.png" alt="Show do Bilhão Crypto" style="height: 36px; width: auto;"> -->
-    <img src="" alt="Show do Bilhão Crypto" style="height: 36px; width: auto; display: none;">
     <span class="navbar-show">Show do</span>
     <span class="navbar-bilhao">Bilhão</span>
     <span class="navbar-crypto">Crypto</span>
@@ -1056,8 +944,6 @@
   </div>
 </section>
 
-
-
 <!-- FEATURES -->
 <section class="section" id="features">
   <div class="divider"></div>
@@ -1093,7 +979,6 @@
         <span class="lang-en">You have 30 seconds to answer each question. Speed and knowledge earn XP — get it wrong and lose all XP earned in the current match!</span>
       </p>
     </div>
-
     <div class="feature-card">
       <span class="feature-icon">🏆</span>
       <div class="feature-title">
@@ -1105,8 +990,6 @@
         <span class="lang-en">Climb the rankings, show your knowledge and compete for the top spot in crypto market knowledge.</span>
       </p>
     </div>
-
-
   </div>
 </section>
 
@@ -1193,8 +1076,6 @@
     </div>
   </div>
 </section>
-
-
 
 <!-- FOOTER -->
 <footer>
