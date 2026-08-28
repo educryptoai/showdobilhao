@@ -4,10 +4,10 @@
 
   <!-- Página principal PT -->
   <url>
-    <loc>https://bilhaocrypto.com.br</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br"/>
+    <loc>https://showdobilhao.com.br</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -15,10 +15,10 @@
 
   <!-- Página principal EN -->
   <url>
-    <loc>https://bilhaocrypto.com.br/en</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br"/>
+    <loc>https://showdobilhao.com.br/en</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -26,10 +26,10 @@
 
   <!-- Ranking PT -->
   <url>
-    <loc>https://bilhaocrypto.com.br/ranking</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br/ranking"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/en/ranking"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br/ranking"/>
+    <loc>https://showdobilhao.com.br/ranking</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br/ranking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/en/ranking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br/ranking"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -37,10 +37,10 @@
 
   <!-- Ranking EN -->
   <url>
-    <loc>https://bilhaocrypto.com.br/en/ranking</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br/ranking"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/en/ranking"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br/ranking"/>
+    <loc>https://showdobilhao.com.br/en/ranking</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br/ranking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/en/ranking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br/ranking"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -48,10 +48,10 @@
 
   <!-- Política de Privacidade PT -->
   <url>
-    <loc>https://bilhaocrypto.com.br/politica-privacidade</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br/politica-privacidade"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br/politica-privacidade"/>
+    <loc>https://showdobilhao.com.br/politica-privacidade</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br/politica-privacidade"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br/politica-privacidade"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -59,10 +59,10 @@
 
   <!-- Privacy Policy EN -->
   <url>
-    <loc>https://bilhaocrypto.com.br/privacy-policy</loc>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bilhaocrypto.com.br/politica-privacidade"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://bilhaocrypto.com.br/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://bilhaocrypto.com.br/politica-privacidade"/>
+    <loc>https://showdobilhao.com.br/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://showdobilhao.com.br/politica-privacidade"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://showdobilhao.com.br/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://showdobilhao.com.br/politica-privacidade"/>
     <lastmod>2026-02-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
