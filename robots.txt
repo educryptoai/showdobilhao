@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bilhaocrypto.com.br/sitemap.xml
+Sitemap: https://showdobilhao.com.br/sitemap.xml
